@@ -26,6 +26,7 @@ the central fun generator is what i'm pretty sure is baked into every game on so
 - The Six Stats, which may influence *some* things randomly but, like, it shouldn't be possible to have good Str but roll a nat 1 while climbing and fall
 - probably adapt the body slot system from Space Station 13
 - may or may not implement a feat system, so that 1 (starting feat) + 2 (flaws) + 6 (one per three levels of a d&amp;d character) times you can become intrinsically better at something
+- there are already humans + changelings, so why not also elves, dwarves, halflings, orcs, planetouched...
 	
 #### changeling 
 
@@ -35,6 +36,8 @@ the central fun generator is what i'm pretty sure is baked into every game on so
 - build on the body slot system so that you can steal people's mundane clothes, armor, or both
 - you have to listen to someone speak for a while to be able to mimic their voice, otherwise you have a chance to arouse suspicion
 - similarly, you have to have some privacy and quiet to study someone's body in order to mimic their appearance perfectly
+- i would really like to include fictional languages as in E.Y.E.: Divine Cybermancy (or simlish i guess) but idk that i can afford voice talent lmao; maybe a text-based version of same (Dorf Fort does it with dwarven, at least)
+- it might make you very hungry to change shape a lot, and even more so to change to a vastly different body type if implementing diff humanoid races
 - you get +2 to any stat you choose; you can re-assign it when you get up in the morning and/or once per day while changing shape
 - you can make and consume up to 5 potions of +1 ability score; these are added to the pool of what you can reassign when able
 - maybe also reassign feats but require specific training? maybe you can re-learn the last 3 or so a la Tales of Maj'Eyal
