@@ -20,73 +20,73 @@ the central fun generator is what i'm pretty sure is baked into every game on so
 
 #### roguelike
 
-	- survival mechanics (hunger, thirst, fatigue, bathroom)
-	- permadeath
-	- day/night cycle
-	- The Six Stats, which may influence *some* things randomly but, like, it shouldn't be possible to have good Str but roll a nat 1 while climbing and fall
-	- probably adapt the body slot system from Space Station 13
+- survival mechanics (hunger, thirst, fatigue, bathroom)
+- permadeath
+- day/night cycle
+- The Six Stats, which may influence *some* things randomly but, like, it shouldn't be possible to have good Str but roll a nat 1 while climbing and fall
+- probably adapt the body slot system from Space Station 13
 	
 #### changeling 
 
-	- shapechanging, of course
-	- take ~6 seconds to change physical appearance + gender pronouns + voice
-	- keep a short "favorites" list of, say, 5 or so frequently-used appearances; also always re-select the 5 or so most recent appearances used
-	- build on the body slot system so that you can steal people's mundane clothes, armor, or both
-	- you have to listen to someone speak for a while to be able to mimic their voice, otherwise you have a chance to arouse suspicion
-	- similarly, you have to have some privacy and quiet to study someone's body in order to mimic their appearance perfectly
-	- Lovecraftian Hidden Fun Stuff woOooOoOoOo~ 
+- shapechanging, of course
+- take ~6 seconds to change physical appearance + gender pronouns + voice
+- keep a short "favorites" list of, say, 5 or so frequently-used appearances; also always re-select the 5 or so most recent appearances used
+- build on the body slot system so that you can steal people's mundane clothes, armor, or both
+- you have to listen to someone speak for a while to be able to mimic their voice, otherwise you have a chance to arouse suspicion
+- similarly, you have to have some privacy and quiet to study someone's body in order to mimic their appearance perfectly
+- Lovecraftian Hidden Fun Stuff woOooOoOoOo~ 
 
 #### assassin
 
 think Dishonored, but randomly generated. how do you get from A to B, deal with the target (which might be an assassination but also theft, kidnapping, leaving a message, other kinds of shady business), and get back without being noticed? this will require:
 
-	- a more involved stealth system (light level already exists in vanilla minecraft, as does line-of-sight i think; will also need noise level and NPC reactions based on where you are and what you're doing) 
-	- various move modes (crouch, walk, run, sprint)
-	- something very much like parkour (climbing, mitigating fall damage, "flow" like Mirror's Edge)
-	- missions/jobs
-	- the city (see below)
+- a more involved stealth system (light level already exists in vanilla minecraft, as does line-of-sight i think; will also need noise level and NPC reactions based on where you are and what you're doing) 
+- various move modes (crouch, walk, run, sprint)
+- something very much like parkour (climbing, mitigating fall damage, "flow" like Mirror's Edge)
+- missions/jobs
+- the city (see below)
 
 #### alchemist
 
 think The Witcher, but deeper. what substances have what properties and what processes have what effect on them?
 
-	- animal/vegetable/mineral (hunt animals, gather/cultivate plants, prospect for minerals)
-	- classical western alchemical bases/reagents etc 
-	- also classical alchemical processes (wikipedia outline of alchemy has a good list)
-	- plenty of d&amp;d source material to implement here too
+- animal/vegetable/mineral (hunt animals, gather/cultivate plants, prospect for minerals)
+- classical western alchemical bases/reagents etc 
+- also classical alchemical processes (wikipedia outline of alchemy has a good list)
+- plenty of d&amp;d source material to implement here too
 
 #### mage
 
 think d&amp;d, but instead of just getting spells for free as you level up, you actually research them.
 
-	- material/verbal/somatic/focus components
-	- materials as described under alchemy
-	- verbal components: syllabary?
-	- somatic components: gestures, possibly derived from ASL?
-	- focus components: rare items, but maybe also geometric diagrams a la fullmetal alchemist tbh (makes more sense as explicit magic than as "alchemy")
-	- basically have it operate like alchemy tbh; components have properties, combine them like legos, note down the results, rinse and repeat
-	- plenty of d&amp;d sourcebooks have expanded on how exactly players can invent new spells, including a sort of morphology of spell mechanics
+- material/verbal/somatic/focus components
+- materials as described under alchemy
+- verbal components: syllabary?
+- somatic components: gestures, possibly derived from ASL?
+- focus components: rare items, but maybe also geometric diagrams a la fullmetal alchemist tbh (makes more sense as explicit magic than as "alchemy")
+- basically have it operate like alchemy tbh; components have properties, combine them like legos, note down the results, rinse and repeat
+- plenty of d&amp;d sourcebooks have expanded on how exactly players can invent new spells, including a sort of morphology of spell mechanics
 
 #### tinker
 
 basically doing Piero's job in addition to Corvo's tbh
 
-	- mechanical (gears, springs, some analytical engine type shit)
-	- electric? very very basic if so
-	- steam, for larger constructions (this is probably strictly optional to even add to the game) 
-	- as above (with magic and alchemy), except you disassemble devices to find out how to make similar things? idk this honestly seems like the hardest part to code
-	- the main thing i'm thinking of is disassembling, like, a regular crossbow and some other devices to discover how to make + improve a hand crossbow, but obvs you should actually be able to invent other things too
+- mechanical (gears, springs, some analytical engine type shit)
+- electric? very very basic if so
+- steam, for larger constructions (this is probably strictly optional to even add to the game) 
+- as above (with magic and alchemy), except you disassemble devices to find out how to make similar things? idk this honestly seems like the hardest part to code
+- the main thing i'm thinking of is disassembling, like, a regular crossbow and some other devices to discover how to make + improve a hand crossbow, but obvs you should actually be able to invent other things too
 
 #### the city
 
 the environment is really a very large NPC that should have a life of its own and react to your action or inaction. will need:
 
-	- npc scheduling
-	- some kind of NPC simulation that isn't quite as involved as stabbing individual organs in Dwarf Fortress but allows more nuanced interaction than point-click-blarg-ded
-	- a whole entire utility for actually generating a city layout, districts, individual buildings, rooms in buildings, et cetera ad infinitum...
-	- a political economy, including industries and related npc jobs (most of which you can probably do yourself too, for safe mundane income)
-	- npc agendas (stuff that motivates people outside of immediate survival, influencing their daily routines) 
-	- npc quirks (exploitable for assassin purposes; steal a guy's tobacco to make him smoke your poisoned cigar idk)
+- npc scheduling
+- some kind of NPC simulation that isn't quite as involved as stabbing individual organs in Dwarf Fortress but allows more nuanced interaction than point-click-blarg-ded
+- a whole entire utility for actually generating a city layout, districts, individual buildings, rooms in buildings, et cetera ad infinitum...
+- a political economy, including industries and related npc jobs (most of which you can probably do yourself too, for safe mundane income)
+- npc agendas (stuff that motivates people outside of immediate survival, influencing their daily routines) 
+- npc quirks (exploitable for assassin purposes; steal a guy's tobacco to make him smoke your poisoned cigar idk)
 	
 ### disclaimer
 
