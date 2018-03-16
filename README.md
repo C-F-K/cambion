@@ -89,8 +89,12 @@ the environment is really a very large NPC that should have a life of its own an
 - some kind of NPC simulation that isn't quite as involved as stabbing individual organs in Dwarf Fortress but allows more nuanced interaction than point-click-blarg-ded
 - a whole entire utility for actually generating a city layout, districts, individual buildings, rooms in buildings, et cetera ad infinitum...
 - a political economy, including industries and related npc jobs (most of which you can probably do yourself too, for safe mundane income)
+- related to the above: commodities, and maybe the possibility to participate in trade
+- also some kind of barter/banker amalgam, similar to Runescape notes, so that you don't have to cart around wagons of grain if you want to trade it
+- you should also totally be able to cart around wagons of grain tho
 - npc agendas (stuff that motivates people outside of immediate survival, influencing their daily routines) 
 - npc quirks (exploitable for assassin purposes; steal a guy's tobacco to make him smoke your poisoned cigar idk)
+- surroundings (wherein can be found rare materials etc), but maybe not immediately accessible; take a ship to an island, take a wagon to the nearby forest, idk; the city should be large enough that you're frequently finding new things but taking a pack of provisions and just wandering the countryside should be something only attempted by the very very prepared, so you're still functionally bounded
 	
 ### disclaimer
 
