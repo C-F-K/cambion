@@ -52,6 +52,7 @@ think Dishonored, but randomly generated. how do you get from A to B, deal with 
 - something very much like parkour (climbing, mitigating fall damage, "flow" like Mirror's Edge)
 - missions/jobs
 - the city (see below)
+- (functionally part of the city, but) maybe some kind of Hitman: Blood Money-style notoriety system, coupled (of course) to specific identities; of course then there's no real reason not to use a different appearance for each job, so then maybe also implement some kind of guild system in which a particular person can advance in rank 
 
 #### alchemist
 
@@ -93,6 +94,7 @@ the environment is really a very large NPC that should have a life of its own an
 - a whole entire utility for actually generating a city layout, districts, individual buildings, rooms in buildings, et cetera ad infinitum...
 - a political economy, including industries and related npc jobs (most of which you can probably do yourself too, for safe mundane income)
 - related to the above: commodities, and maybe the possibility to participate in trade
+- also related: guilds (see notoriety, under assassin)
 - also some kind of barter/banker amalgam, similar to Runescape notes, so that you don't have to cart around wagons of grain if you want to trade it
 - you should also totally be able to cart around wagons of grain tho
 - npc agendas (stuff that motivates people outside of immediate survival, influencing their daily routines) 
